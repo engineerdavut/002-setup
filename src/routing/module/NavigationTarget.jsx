@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 
 export default function NavigationTarget(){
     const {id}=useParams();
+    const navigate=useNavigate();
     const getParametric=()=>{
         if(id){
             return(
@@ -12,10 +13,14 @@ export default function NavigationTarget(){
             )
         }
     }
+    const gotoSource=()=>{
+        navigate("/source");
+    }
     return(
         <div>
             <h1>erek</h1>
-            {getParametric()}
+            {getParametric()}<br/>
+
         </div>
     )
 }
