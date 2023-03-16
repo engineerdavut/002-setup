@@ -1,22 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import GrandParentComponent from './GrandParentComponent';
+import StateInside from './StateInside';
+import StateOutside from './StateOutside';
+import ApplicationRouter from './routing/application/ApplicationRouter';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ApplicationRouter/>
       </header>
     </div>
   );
