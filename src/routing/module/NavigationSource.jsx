@@ -7,6 +7,7 @@ export default function NavigationSource(){
             <h1>Source</h1>
             <Link to="/target">ereğe git</Link><br/>
             <Link to="/target/321">ereğe değiştirgenle git</Link><br/>
+            <Link to="/products">products</Link><br/>
         </div>
     )
 }

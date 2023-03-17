@@ -1,0 +1,107 @@
+{
+    "id" : 201,
+    "name" : "cep telefonu",
+    "price" : 345
+}
+
+[
+    {
+        "id" : 201,
+        "name" : "cep telefonu",
+        "price" : 345
+    },
+    {
+        "id" : 202,
+        "name" : "bilgisayar",
+        "price" : 6000.5
+    },
+    {
+        "id" : 203,
+        "name" : "tablet",
+        "price" : 895.6
+    }
+]
+{
+    "categoryId" : 501,
+    "categoryName" : "elektronik",
+    "products" : [
+        {
+            "id" : 201,
+            "name" : "cep telefonu",
+            "price" : 345
+        },
+        {
+            "id" : 202,
+            "name" : "bilgisayar",
+            "price" : 6000.5
+        },
+        {
+            "id" : 203,
+            "name" : "tablet",
+            "price" : 895.6
+        }
+    ]
+}
+{
+    "cartId" : 701,
+    "customerName" : "mahsuni serif",
+    "adress": [
+        "province" : "istanbul",
+        "district" : "fatih"
+    ]
+    "products" : [
+        {
+            "id" : 201,
+            "name" : "cep telefonu",
+            "price" : 345,
+            "quantity"  : 1,
+            "tax" : 23
+        },
+        {
+            "id" : 202,
+            "name" : "bilgisayar",
+            "price" : 6000.5,
+            "quantity"  : 56,
+            "tax" : 57
+        },
+        {
+            "id" : 203,
+            "name" : "tablet",
+            "price" : 895.6,
+            "quantity"  : 78,
+            "tax" : 28
+        }
+    ]
+}
+{
+    "cartId" : 701,
+    "customerName" : "mahsuni serif",
+    "adress": 
+    {
+        "province" : "istanbul",
+        "district" : "fatih"
+    }  ,
+    "products" : [
+        {
+            "id" : 201,
+            "name" : "cep telefonu",
+            "price" : 345,
+            "quantity"  : 1,
+            "tax" : 23
+        },
+        {
+            "id" : 202,
+            "name" : "bilgisayar",
+            "price" : 6000.5,
+            "quantity"  : 56,
+            "tax" : 57
+        },
+        {
+            "id" : 203,
+            "name" : "tablet",
+            "price" : 895.6,
+            "quantity"  : 78,
+            "tax" : 28
+        }
+    ]
+}

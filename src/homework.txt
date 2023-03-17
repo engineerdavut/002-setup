@@ -1,0 +1,31 @@
+/db/employees.json
+701 Barış Manço 5460
+702 Cem Karaca 6525
+703 Fikret Kızılok 3450
+/employees
+EmployeeList
+state employees
+fetch()
+setEmployees(employees)
+<>
+employees.map(employee =>
+id
+name
+salary
+link -> employee/{id}
+)
+</>
+/db/employee701.json
+/db/employee702.json
+/db/employee703.json
+/employee/:id
+EmployeeDetail
+id param
+state employee
+effect
+fetch
+setEmployee(employee)
+form submit: save
+output id
+input name
+input salary

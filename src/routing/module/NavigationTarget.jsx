@@ -1,5 +1,5 @@
 
-import { useParams } from "react-router-dom";
+import { useParams ,useNavigate} from "react-router-dom";
 
 export default function NavigationTarget(){
     const {id}=useParams();
