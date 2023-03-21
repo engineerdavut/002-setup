@@ -7,7 +7,7 @@ import ApplicationRouter from './routing/application/ApplicationRouter';
 import { FetchList } from './fetch/FetchList';
 import { Project } from './fetch/Project';
 import FetchRoute from './fetch/FetchRoute';
-import { TextField } from './fetch/TextField';
+import { TextFieldComponent } from './fetch/TextFieldComponent';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         {/*<FetchList/>*/} 
         {/*<Project/>*/}
         {/*<FetchRoute/>*/}  
-        <TextField/>
+        <TextFieldComponent/>
       </header>
     </div>
   );

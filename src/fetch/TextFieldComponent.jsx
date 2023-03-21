@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 
 
-export const TextField=()=>{
+export const TextFieldComponent=()=>{
 
     return (
         <div>
